@@ -1,1 +1,1 @@
-# guess_the_word-cpp-game
+In this game the computer chooses a word randomly.Then the player tries to guess the word by choosing a letter at a time.Each time player chooses a correct letter all occurences of the letter are revealed.Allowed number of strikes are 5.
