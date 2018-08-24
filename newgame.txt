@@ -75,7 +75,7 @@ int main ()
 	}
 	if(num_of_wrong_guesses == MAX_TRIES)
 	{
-		cout << "\nSorry, you lose...you've been hanged." << endl;
+		cout << "\n, you lose...you've been hanged." << endl;
 		cout << "The word was : " << word << endl;
 	}
 	cin.ignore();
