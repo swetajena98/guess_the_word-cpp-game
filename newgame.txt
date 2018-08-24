@@ -28,8 +28,11 @@ int main ()
 	};
 
 	//choose and copy a word from array of words randomly
-	srand(time(NULL));
-	int n=rand()% 10;
+	//srand(time(NULL));
+	//int n=rand()% 4;
+	srand((unsigned)time(NULL));
+        cout<<(rand()%100+1);<<"this is the number :"<<"\n";
+
 	word=words[n];
     
 	// Initialize the secret word with the * character.
